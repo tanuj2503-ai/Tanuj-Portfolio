@@ -10,7 +10,21 @@ const projectData = [
     description: 'A modern web application connecting users with essential services.',
     // image: lifelinkImg,
     liveLink: 'https://lifelink-ten-dun.vercel.app/',
-    githubLink: '#', // TODO: Add GitHub link
+    githubLink: 'https://github.com/tanuj2503-ai/LifeLink-', // TODO: Add GitHub link
+  },
+  {
+    title: 'M3 Education',
+    description: 'A supplementary educational website focused on interactive learning.',
+    // image: m3eduImg,
+    liveLink: 'https://m3edu.ct.ws/?i=1',
+    githubLink: 'https://github.com/tanuj2503-ai/m3-edu', // TODO: Add GitHub link
+  },
+    {
+    title: 'Pelican Confectioners Pvt. Ltd',
+    description: 'A modern, responsive confectionery website showcasing premium sweets, chocolates, and candies. Built with a clean UI and smooth navigation to highlight the brand’s story, products, and team.',
+    // image: m3eduImg,
+    liveLink: 'https://pelicandemo.vercel.app/',
+    githubLink: 'https://github.com/tanuj2503-ai/Pelican', // TODO: Add GitHub link
   },
   {
     title: 'OM Education',
@@ -19,13 +33,7 @@ const projectData = [
     liveLink: 'https://omeducation.rf.gd/?i=1',
     githubLink: '#', // TODO: Add GitHub link
   },
-  {
-    title: 'M3 Education',
-    description: 'A supplementary educational website focused on interactive learning.',
-    // image: m3eduImg,
-    liveLink: 'https://m3edu.ct.ws/?i=1',
-    githubLink: '#', // TODO: Add GitHub link
-  },
+  
 ];
 
 const Projects = () => {
