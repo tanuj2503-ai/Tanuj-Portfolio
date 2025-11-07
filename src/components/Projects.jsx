@@ -21,7 +21,7 @@ const projectData = [
   },
     {
     title: 'Pelican Confectioners Pvt. Ltd',
-    description: 'A modern, responsive confectionery website showcasing premium sweets, chocolates, and candies. Built with a clean UI and smooth navigation to highlight the brand’s story, products, and team.',
+    description: 'Built with a clean UI and smooth navigation to highlight the brand’s story, products, and team.',
     // image: m3eduImg,
     liveLink: 'https://pelicandemo.vercel.app/',
     githubLink: 'https://github.com/tanuj2503-ai/Pelican', // TODO: Add GitHub link
@@ -32,6 +32,12 @@ const projectData = [
     // image: omeducationImg,
     liveLink: 'https://omeducation.rf.gd/?i=1',
     githubLink: '#', // TODO: Add GitHub link
+  },
+  {
+    title: 'CPC AI Chatbot',
+    description: 'An advanced, animated, and voice-enabled AI assistant interface built for web browsers.',
+    // image: m3eduImg,
+    githubLink: 'https://github.com/tanuj2503-ai/CPC-AI-Chatbot', // TODO: Add GitHub link
   },
   
 ];
