@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 const certs = [
   {
@@ -21,28 +22,35 @@ const certs = [
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="py-20 min-h-screen flex items-center">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold text-center mb-12">
-          Achievements & <span className="text-accent">Certifications</span>
-        </h2>
-        <div className="max-w-4xl mx-auto">
+    <section id="certifications">
+      <div className="section-shell">
+        <span className="section-kicker">Credentials</span>
+        <h2 className="section-title">Achievements And Certifications</h2>
+        <div className="mx-auto mt-10 grid max-w-5xl gap-5">
           {certs.map((cert, index) => (
             <motion.div
               key={index}
-              className="mb-4"
+              className="panel"
               initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.2 }}
+              transition={{ duration: 0.45, delay: index * 0.1 }}
             >
-              <a href={cert.link} target="_blank" rel="noopener noreferrer" className="block p-6 bg-secondary-dark rounded-lg hover:bg-gray-800 hover:shadow-lg hover:shadow-accent/20 transition-all">
-                <div className="flex justify-between items-center">
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block rounded-3xl p-6 transition-all hover:bg-canvas/20"
+              >
+                <div className="flex flex-col justify-between gap-4 md:flex-row md:items-center">
                   <div>
-                    <h3 className="text-xl font-bold text-white">{cert.name}</h3>
-                    <p className="text-gray-400">{cert.issuer}</p>
+                    <h3 className="text-xl font-bold text-text-main">{cert.name}</h3>
+                    <p className="mt-2 text-sm uppercase tracking-[0.15em] text-text-soft">{cert.issuer}</p>
                   </div>
-                  <span className="text-accent font-semibold">View Badge</span>
+                  <span className="inline-flex items-center gap-2 rounded-lg border border-cyan/40 bg-cyan/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-cyan">
+                    View Badge
+                    <FaArrowUpRightFromSquare />
+                  </span>
                 </div>
               </a>
             </motion.div>

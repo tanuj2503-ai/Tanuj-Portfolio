@@ -7,14 +7,18 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        // Using 'Inter' as a modern, clean alternative to San Francisco
-        sans: ['Inter', 'sans-serif'],
+        sans: ['"Sora"', 'sans-serif'],
+        display: ['"Orbitron"', 'sans-serif'],
       },
       colors: {
-        // Dark theme with a neon accent color
-        'primary-dark': '#0a0a0a',
-        'secondary-dark': '#1a1a1a',
-        'accent': '#00ff99',
+        canvas: '#060812',
+        panel: '#11182c',
+        edge: '#2a3d78',
+        cyan: '#27e5ff',
+        lime: '#baff46',
+        coral: '#ff6b7d',
+        'text-main': '#f7fbff',
+        'text-soft': '#98a7c8',
       },
     },
   },
