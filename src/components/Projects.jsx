@@ -56,40 +56,6 @@ const projectData = [
       'Improved first-screen communication and brand clarity.',
     ],
   },
-  {
-    title: 'Pelican Confectioners Pvt. Ltd',
-    description:
-      'Built with a clean UI and smooth navigation to highlight the brand story, products, and leadership.',
-    stack: ['Brand Site', 'Storytelling', 'UI'],
-    liveLink: 'https://pelicandemo.vercel.app/',
-    image: asset('/assets/begin-byte.png'),
-    fallbackImage: 'https://image.thum.io/get/width/1200/https://pelicandemo.vercel.app/',
-    objectPosition: 'center top',
-    category: 'Business',
-    githubLink: 'https://github.com/tanuj2503-ai/Pelican',
-    outcomes: [
-      'Presented company identity in a polished modern format.',
-      'Structured content to improve user understanding of offerings.',
-      'Designed with smooth navigation and strong visual hierarchy.',
-    ],
-  },
-  {
-    title: 'CPC AI Chatbot',
-    description:
-      'An advanced animated and voice-enabled AI assistant interface tailored for modern web browsers.',
-    stack: ['AI UI', 'Voice UX', 'Frontend'],
-    liveLink: 'https://github.com/tanuj2503-ai/CPC-AI-Chatbot',
-    image: asset('/assets/m3-techlab.png'),
-    fallbackImage: 'https://image.thum.io/get/width/1200/https://github.com/tanuj2503-ai/CPC-AI-Chatbot',
-    objectPosition: 'center top',
-    category: 'Web App',
-    githubLink: 'https://github.com/tanuj2503-ai/CPC-AI-Chatbot',
-    outcomes: [
-      'Integrated animated conversational interface patterns.',
-      'Explored voice-enabled interaction for accessibility and speed.',
-      'Created a futuristic UI system for assistant-like experiences.',
-    ],
-  },
 ];
 
 const filters = ['All', 'Business', 'Web App'];
